@@ -1,0 +1,30 @@
+body
+{
+    background: url("subwall.jpg") no-repeat;
+}
+#title
+{
+    text-align: center ;
+    /* background: url("subwall.jpg") no-repeat; */
+}
+#title h1
+{
+    font-size: 50px;
+    margin-top: 55px;
+}
+#inside
+{
+    padding: 0% 15%;
+    font-size: 30px;
+    color: lavender;
+}
+#inside h3
+{
+    color: black!important;
+}
+.image
+{
+    position: absolute;
+    left: 45%;
+    bottom:25%;
+}
