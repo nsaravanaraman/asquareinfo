@@ -382,3 +382,341 @@ h1,h2,h3,h4,h5,h6,p
     margin-top: 40px;
     margin-bottom : 40px;
 }
+    font-family: 'Shippori Mincho B1', serif!important;
+    color:rgb(99, 6, 6)!important;
+    font-weight: bold;
+}
+.nav-link:hover
+{
+    color:#fff!important;
+}
+.navbar-brand
+{
+    font-family: 'Cinzel', serif!important;
+    font-size: 22px!important;
+    color: rgb(99, 6, 6)!important;
+    /* font-weight!important; */
+
+}
+
+/* about section */
+#about
+{
+    text-align: center;
+    padding-top: 40px;
+    background-color: whitesmoke;
+    /* background: url("wood3.jpg"); */
+    margin-top: 20px;
+}
+#la
+{
+    text-align: left;
+    padding-top: 10px;
+    font-size: 19px;
+}
+#ra
+{
+    /* text-align: left; */
+    /* position: relative;
+    left: 2%; */
+    font-size: 18px;
+}
+.cls
+{
+    /* text-align: center; */
+    /* position: relative;
+    left: 41.5%!important; */
+    /* display: block; */
+    /* margin: 0 auto; */
+    font-size: 25px!important;
+}
+.font_siz
+{
+    font-size: 25px;
+}
+.move-down
+{
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.image-1
+{
+ text-align: right;
+ padding-left: 50%;  
+ /* width: 200px; */
+ /* height: 200px;  */
+}
+.image-2
+{
+    padding-right: 50%;
+}
+.wid,#ra h3
+{
+    width: 60%;
+    text-align: left;
+    /* padding-left: 50% ; */
+    position: relative;
+    left: 42%;
+}
+/* courses */
+#courses
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: url("wood.jpg")  ;
+    color: lavender;
+}
+.card
+{
+    width: 75%;
+    height: 480px;
+    margin-left: 10%;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    color: black;
+    background-color: whitesmoke!important;
+}
+.card-text
+{
+    font-size: 18px;
+}
+.spa
+{
+    font-size: 17px;
+    /* color: #815529; */
+}
+.btn:hover
+{
+    color: #815529!important;
+}
+/* reviews */
+#reviews
+{
+    text-align: center;
+    color: lavender;
+    /* background-color: black; */
+    background: url("wood4.jpg");
+    height: 480px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#reviews h1
+{
+    padding-bottom: 50px;
+}
+#reviews p
+{
+    width: 65%;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.sig-img
+{
+    background-color: #000;
+    text-align: center;
+    margin-top: 30px;
+}
+.white-space
+{
+    background-color: #fff;
+    height: 50px;
+}
+.revimg
+{
+    width: 9%;
+    height: 9%;
+    margin: 20px;
+    display: inline-block;
+}
+.edu
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.move
+{
+    margin-top: 60px;
+}
+.loc-sym
+{
+    width: 20px;
+    height: 20px;
+    padding-right: 0%;
+    /* margin-left: 5px; */
+}
+/* contact */
+#contact
+{
+    /* height: 250px; */
+    /* background: url("wood1.jpg"); */
+    background-color:  	whitesmoke;
+    color:#815529  ;
+    text-align: center;
+    padding: 65px;
+    padding-bottom: 1px;
+}
+.contact-link
+{
+    color:  #381d0a;
+    font-size: 30px;
+    /* font-weight: 300; */
+    padding: 20px;
+    transition: 1s;
+}
+.contact-link:hover
+{
+    color: orange;
+}
+#contact h2,p
+{
+    font-weight: 500;
+}
+.moto
+{
+    letter-spacing: 2px;
+    font-size: 18px;
+    margin-bottom: 5%!important;
+    /* padding-top: 10px; */
+    padding-bottom: 5px;
+}
+/* mobile responsive  */
+@media (max-width: 800px)
+{
+    .navbar-brand
+    {
+        font-size: 16px!important;
+    }
+    .nav-link
+    {
+        font-size: 13px;
+    }
+    #title h1
+    {
+        font-size: 23px;
+    }
+    #title h3
+    {
+        font-size: 15px;
+    }
+    #title
+    {
+        height: 460px;
+    }
+    #about
+    {
+        padding-top:5px!important;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    .move-down
+    {
+        padding-top: 50px;
+        margin-bottom: 0px;
+    }
+    #la
+    {
+        text-align: center;
+    }
+    .image-1
+    {
+    /* text-align: center; */
+    padding-left: 0%; 
+    }
+    .image-2
+    {
+        padding-right: 0;
+        padding-top: 0%;
+        margin-top: 0%;
+        position: relative;
+        bottom: 55px;
+    }
+    .mob
+    {
+        text-align:center;
+        position: relative;
+        left: 15px;
+        width: 90%;
+    }
+    #ra
+    {
+        text-align: center!important;
+    }
+    .card
+    {
+        height: 560px;
+    }
+    .spann
+    {
+        font-size: 48px;
+        /* letter-spacing: 1.5px; */
+    }
+    .card
+    {
+        margin-left: 12.7%;
+    }
+    #reviews
+    {
+        height: 570px;
+    }
+    #contact
+    {
+        /* height: 500px; */
+        padding: 25px;
+        padding-bottom: 10px;
+    }
+    .contact-link
+    {
+        font-size: 25px;
+    }
+    /* .cls
+    {
+        /* position: relative;
+        left: 34.5%!important; 
+    } */
+}
+@media (max-width: 360px )
+{
+    .abt
+    {
+        font-size: 52px!important;
+    }
+    /* .bt1{
+        font-size: 43px!important;
+    } */
+}
+@media (max-width: 300px )
+{
+    .abt1
+    {
+        font-size: 40px;
+    }
+    /* .batchdet{
+        font-size: 40px;
+    } */
+}
+@media only screen and  (max-width: 800px)
+{
+    .card-text{
+        /* height: 650px; */
+        font-size:16.5px;
+    }
+    
+}
+
+
+/* batch details */
+.batchset{
+    text-align: center;
+    font-family: 'Shippori Mincho B1', serif;
+}
+.bt{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 40px;
+
+}
+.batchdet{
+    margin-top: 40px;
+    margin-bottom : 40px;
+}
